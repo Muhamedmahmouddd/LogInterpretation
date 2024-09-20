@@ -9,7 +9,7 @@ from io import StringIO
 import streamlit as st
 from ruptures import Pelt
 
-# Functions.
+# Functions
 # Modified from andymcdo repo
 @st.cache_data
 def load_data(uploaded_file):
